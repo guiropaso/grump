@@ -128,7 +128,11 @@ export default function Home() {
       <footer className="mb-20">
         <div className=" grid grid-cols-2 items-center justify-center">
           <div className="grid grid-flow-col grid-cols-3">
-            <Link href={""} className="hover:scale-110 transition-transform">
+            <Link
+              href={"https://t.me/+Rx4hvkhR9sphMzIx"}
+              target="_blank"
+              className="hover:scale-110 transition-transform"
+            >
               <Image className="w-3/4 mx-auto" src={telegram} alt="telegram" />
             </Link>
             <Link href={""} className="hover:scale-110 transition-transform">
